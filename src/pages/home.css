@@ -1,0 +1,439 @@
+.ekit-heading__shadow-text {
+    top: 66%;
+    left: 0%;
+    font-family: "Archivo", Sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 90px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    -webkit-text-fill-color: #02010100;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FFFFFFBD;
+    position: relative;
+    
+  }
+  @media screen and (max-width: 932px) {
+    .ekit-heading__shadow-text {
+      font-size: 60px;
+      line-height: 60px;
+      top: 66%;
+      left: 0%;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .ekit-heading__shadow-text {
+      font-size: 60px;
+      line-height: 60px;
+      top: 20%;
+      left: 30% !important;
+    }
+  }
+  .custom-card {
+    height: 100%;
+    background-color: #151515;
+    padding: 40px 34px 30px 34px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #151515;
+    border-radius: 0px;
+    transition: border-left-color 0.3s ease; /* Adding transition for hover effect */
+  }
+  
+  .custom-card:hover {
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: #E0B905;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .htx{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    font-family: "Archivo", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+  }
+
+  .htx:hover {
+    color: #E0B905;
+  }
+  .btm {
+    color: #101010;
+    margin: 0px 0px 36px 0px;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0px;
+    position: relative; /* Ensure relative positioning for ::before */
+    padding-left: 27px;
+  }
+  
+  .btm::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 90%;
+    top: 9px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ff512f 0%, #f2295b 100%);
+    left: -10px; /* Adjust position of the gradient */
+    z-index: -1; /* Ensure it's behind the text */
+  }
+
+  /* Main Footer ----- */
+
+.main-footer {
+  background-color: var(--bs-white);
+  background-repeat: no-repeat;
+}
+
+.footer-logo {
+  border-right: 1px solid #7a7a7a;
+}
+
+.footer-logo img {
+  height: 36px;
+}
+
+.footer-link .link,
+.footer-nav li a {
+  color: var(--bs-body-color);
+  font-weight: 500;
+  -webkit-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.footer-link .link:hover,
+.social-icon a:hover,
+.footer-nav li a:hover {
+  color: var(--bs-primary) !important;
+}
+
+.social-icon a {
+  display: block;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+  color: var(--bs-body-color);
+  font-weight: 500;
+}
+
+.social-icon .icon-wrap {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  line-height: 30px;
+  border-radius: 0.375rem;
+  vertical-align: middle;
+}
+
+.social-icon .icon-wrap.inst {
+  background: linear-gradient(to right, #FF416C, #FF4B2B, #FD1D1D) !important;
+}
+
+.social-icon .icon-wrap.twi {
+  background-color: #00acee !important;
+}
+
+.social-icon .icon-wrap.dri {
+  background-color: #ea4c89 !important;
+}
+
+.social-icon .icon-wrap.fb {
+  background-color: #3b5998 !important;
+}
+
+.social-icon .icon-wrap.whatsapp {
+  background-color: #25d366 !important;
+}
+
+.list-separator .list-inline-item {
+  position: relative;
+  margin-left: 0;
+  margin-right: -0.25rem;
+}
+
+.list-separator .list-inline-item:not(:last-child) {
+  padding-right: 2rem;
+}
+
+.list-separator .list-inline-item:not(:last-child)::after {
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "/";
+  opacity: 0.4;
+}
+
+/*Dark footer-----*/
+
+.footer-dark {
+  color: var(--bs-white);
+  background-color: var(--footer-bg-color);
+}
+
+.footer-dark .email-link,
+.footer-dark .link-title {
+  color: var(--bs-white);
+}
+
+.footer-dark .footer-link .link,
+.footer-dark .social-icon a,
+.footer-dark .footer-nav li a {
+  color: #8d9193;
+}
+
+.text-white {
+  color: white !important;
+}
+.footer-sec{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 88px 0px 60px 0px;
+}
+.footer-spacing{
+  max-width: 1200px;
+  --widgets-spacing: 20px 20px;
+  display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.ekit_social_media{
+  margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.elementor-repeater-item{
+  display: inline-block;
+    margin: 5px 5px 5px 5px;
+    border: solid;
+    border-radius: 50% 50% 50% 50%;
+  padding: 0px 0px 0px 0px;
+  border-color: white;
+}
+.ekit_social_media > li > a {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50% 50% 50% 50%;
+  padding: 10px 11px 10px 11px;
+  line-height: 35px;
+}
+.ekit_social_media>li>a {
+  display: block;
+  cursor: pointer;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.round-radius{
+  border-radius: 50% 50% 50% 50%;
+  padding: 0px 0px 0px 0px;
+  border-color: white;
+}
+.elementor-icon-list-icon{
+  text-align: center;
+  color: white;
+}
+.footer-links li::before {
+  content: '>'; /* Arrow mark */
+  margin-right: 0.5rem; /* Space between arrow and text */
+  color: #fff; /* Color of the arrow */
+  font-weight: 800;
+}
+.li-pad{
+  padding: 15px;
+}
+.ekit-wid-con .elementskit_inline_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.ekit-wid-con .elementskit_inline_form .elementskit_input_wraper:not(.ekit_submit_input_holder) {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.ekit-wid-con .elementskit_inline_form .elementskit_form_group {
+    margin-bottom: 0;
+}
+.ekit-wid-con .ekit-mailChimpForm .elementskit_form_group {
+    margin-bottom: 1rem;
+    margin: 0;
+}
+.elementor-2520 .elementor-element.elementor-element-3f6d820d .ekit_form_control {
+  border-radius: 24px 0px 0px 25px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #273171;
+  padding: 18px 17px 18px 20px;
+}
+.ekit-wid-con .ekit-mailChimpForm .ekit_form_control {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 42px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.ekit-wid-con input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ekit-wid-con .elementskit_inline_form .ekit_submit_input_holder {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.button-custom {
+  background-color: yellow;
+  color: black;
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 0px 24px 24px 0px;
+  transition: background-color 0.3s ease;
+}
+
+.button-custom:hover {
+  background-color: red;
+}
+.footer-link li::before {
+  /* Arrow mark */
+  margin-right: 0.5rem; /* Space between arrow and text */
+  color: #fff; /* Color of the arrow */
+  font-weight: 800;
+}
+.li-pad{
+  padding: 15px;
+}
+.image-container {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  max-width: 390px; /* Adjust as needed */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  padding: 10px;
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+  text-align: left; /* Adjust as needed */
+}
+.pmeta {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3px;
+  color: #fff;
+  opacity: 0.8;
+}
+.pmeta a:hover {
+  color: #ffd100;
+}
+.project-name h4 {
+  margin-bottom: 15px;
+}
+.project-name a:hover{
+  color: #ffd100;
+}
+.btn-details {
+  color: #ffd100;
+}
+.btn {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  font-size: 16px;
+  padding: 15px 20px;
+  min-width: 152px;
+  line-height: 1.42857143;
+  display: inline-block;
+  margin-bottom: 0;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  background: #ffd100;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #252525;
+  font-weight: bold;
+}
+
+.btn-oval{
+  border-radius: 40px 40px 40px 40px;
+}
+.btn:hover{
+  background-color: #03132b;
+  color: #ffd100;
+}
+.icon, .icon::before {
+  font-family: elementskit!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon.icon-arrow-right-circle::before {
+  content: "\e886";
+}
+
+.nav-text{
+  color:#514242 !important;
+}
