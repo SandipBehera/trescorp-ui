@@ -31,7 +31,7 @@ const HomePage = () => {
           {/* <!-- Your content --> */}
           <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 md:w-3/5">
+              <div className="p-4 md:w-3/5" data-taos-offset="300">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-14">
                   <div>
                     <span class="elementor-icon elementor-animation-">
@@ -109,20 +109,23 @@ const HomePage = () => {
               </div>
               <div className="p-4 md:w-2/5">
                 <img
-                  className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
+                  className="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0 object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
                   src="../img/story-home4.jpg"
+                  data-taos-offset="300"
                 />
               </div>
             </div>
           </section>
           <section
-            className="container  text-gray-600 body-font md:my-auto"
+          id="animated-section"
+            className="container mx-auto max-w-none text-gray-600 body-font md:my-auto"
             style={{ backgroundColor: "black" }}
           >
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
               <div className="md:w-auto">
                 <h2
+                  className="zoom-animation"
                   style={{
                     color: "#FFFFFF",
                     fontFamily: "Archivo, sans-serif",
@@ -131,18 +134,18 @@ const HomePage = () => {
                     lineHeight: "24px",
                     letterSpacing: "0px",
                     margin: "0px 0px 0px 0px",
-                    padding: "7px 23px", // top/bottom padding 7px, left/right padding 23px
-                    borderStyle: "solid", // border style solid
-                    borderWidth: "3px", // border width 3px all sides
-                    borderColor: "#FFFFFF20", // border color with alpha #FFFFFF20
-                    borderRadius: "2em", // border radius 2em all corners
+                    padding: "7px 23px",
+                    borderStyle: "solid",
+                    borderWidth: "3px",
+                    borderColor: "#FFFFFF20",
+                    borderRadius: "2em",
                     width: "max-content",
                   }}
                 >
                   Journey Towards Success
                 </h2>
                 <span
-                  className="text-white transition-all duration-300 inline-block font-bold text-4xl md:text-6xl lg:text-7xl"
+                  className="text-white transition-all duration-300 inline-block font-bold text-4xl md:text-6xl lg:text-7xl shake-animation"
                   style={{
                     color: "white",
                     transition: "all .3s ease",
@@ -160,6 +163,7 @@ const HomePage = () => {
                     <img
                       src="../img/icon/icon-service4-home3.png"
                       alt="story"
+                      className="zoom-animation"
                     />
                     <div className="mt-5">
                       <h2 className="htx">VISION OF EXCELLENCE</h2>
@@ -174,6 +178,7 @@ const HomePage = () => {
                     <img
                       src="../img/icon/icon-service1-home3.png"
                       alt="story"
+                      className="zoom-animation"
                     />
                     <div className="mt-5">
                       <h2 className="htx">A MISSION FOR SUCCESS</h2>
@@ -187,7 +192,7 @@ const HomePage = () => {
                       </p>
                       <p className="mb-4 mt-4" style={{ color: "white" }}>
                         To provide solutions, endless support and satisfaction
-                        ensuring business sustainability.{" "}
+                        ensuring business sustainability.
                       </p>
                     </div>
                   </div>
@@ -234,7 +239,7 @@ const HomePage = () => {
             </div>
           </section>
           <section
-            className="container  text-gray-600 body-font md:my-auto"
+            className="container mx-auto max-w-none text-gray-600 body-font md:my-auto"
             style={{ backgroundColor: "#f7f9fb" }}
           >
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 ">
@@ -261,7 +266,7 @@ const HomePage = () => {
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font md:my-auto">
+          <section className="container mx-auto max-w-none text-gray-600 body-font md:my-auto">
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 ">
               <div className="md:w-auto">
                 <div className="p-4 md:w-auto">
@@ -282,51 +287,53 @@ const HomePage = () => {
                           className="image"
                         />
                         <div>
-                        <div className="overlay">
-                          <div className="text">
-                          <div class="pmeta font-second">
-                            {" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Construction
-                            </a>{" "}
-                            /{" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Energy
-                            </a>
-                          </div><br/>
-                          <h4 class="project-name">
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                              tabindex="-1"
-                            >
-                              Industry Complex
-                            </a>
-                          </h4>
-                          <p className="mt-4 text-base">
-                            Sed ut perspiciatis unde omnis iste nas error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            aperiam, eaque ipsa quae ab illo inventore veritatis
-                            et quasi architecto. Ut enim ad minima veniam, quis
-                            nostrum exercitationem ullam…
-                          </p>
-                          <a
-                            class="btn-details mt-10"
-                            href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                            tabindex="-1"
-                          >
-                            View details{" "}
-                            <i class="icon ion-md-add-circle-outline"></i>
-                          </a>
+                          <div className="overlay">
+                            <div className="text">
+                              <div class="pmeta font-second">
+                                {" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Construction
+                                </a>{" "}
+                                /{" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Energy
+                                </a>
+                              </div>
+                              <br />
+                              <h4 class="project-name">
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                  tabindex="-1"
+                                >
+                                  Industry Complex
+                                </a>
+                              </h4>
+                              <p className="mt-4 text-base">
+                                Sed ut perspiciatis unde omnis iste nas error
+                                sit voluptatem accusantium doloremque
+                                laudantium, totam aperiam, eaque ipsa quae ab
+                                illo inventore veritatis et quasi architecto. Ut
+                                enim ad minima veniam, quis nostrum
+                                exercitationem ullam…
+                              </p>
+                              <a
+                                class="btn-details mt-10"
+                                href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                tabindex="-1"
+                              >
+                                View details{" "}
+                                <i class="icon ion-md-add-circle-outline"></i>
+                              </a>
+                            </div>
                           </div>
-                        </div>
                         </div>
                       </div>
                     </div>
@@ -338,51 +345,53 @@ const HomePage = () => {
                           className="image"
                         />
                         <div>
-                        <div className="overlay">
-                          <div className="text">
-                          <div class="pmeta font-second">
-                            {" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Construction
-                            </a>{" "}
-                            /{" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Energy
-                            </a>
-                          </div><br/>
-                          <h4 class="project-name">
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                              tabindex="-1"
-                            >
-                              Industry Complex
-                            </a>
-                          </h4>
-                          <p className="mt-4 text-base">
-                            Sed ut perspiciatis unde omnis iste nas error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            aperiam, eaque ipsa quae ab illo inventore veritatis
-                            et quasi architecto. Ut enim ad minima veniam, quis
-                            nostrum exercitationem ullam…
-                          </p>
-                          <a
-                            class="btn-details mt-10"
-                            href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                            tabindex="-1"
-                          >
-                            View details{" "}
-                            <i class="icon ion-md-add-circle-outline"></i>
-                          </a>
+                          <div className="overlay">
+                            <div className="text">
+                              <div class="pmeta font-second">
+                                {" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Construction
+                                </a>{" "}
+                                /{" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Energy
+                                </a>
+                              </div>
+                              <br />
+                              <h4 class="project-name">
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                  tabindex="-1"
+                                >
+                                  Industry Complex
+                                </a>
+                              </h4>
+                              <p className="mt-4 text-base">
+                                Sed ut perspiciatis unde omnis iste nas error
+                                sit voluptatem accusantium doloremque
+                                laudantium, totam aperiam, eaque ipsa quae ab
+                                illo inventore veritatis et quasi architecto. Ut
+                                enim ad minima veniam, quis nostrum
+                                exercitationem ullam…
+                              </p>
+                              <a
+                                class="btn-details mt-10"
+                                href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                tabindex="-1"
+                              >
+                                View details{" "}
+                                <i class="icon ion-md-add-circle-outline"></i>
+                              </a>
+                            </div>
                           </div>
-                        </div>
                         </div>
                       </div>
                     </div>
@@ -394,51 +403,53 @@ const HomePage = () => {
                           className="image"
                         />
                         <div>
-                        <div className="overlay">
-                          <div className="text">
-                          <div class="pmeta font-second">
-                            {" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Construction
-                            </a>{" "}
-                            /{" "}
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
-                              rel="tag"
-                              tabindex="-1"
-                            >
-                              Energy
-                            </a>
-                          </div><br/>
-                          <h4 class="project-name">
-                            <a
-                              href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                              tabindex="-1"
-                            >
-                              Industry Complex
-                            </a>
-                          </h4>
-                          <p className="mt-4 text-base">
-                            Sed ut perspiciatis unde omnis iste nas error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            aperiam, eaque ipsa quae ab illo inventore veritatis
-                            et quasi architecto. Ut enim ad minima veniam, quis
-                            nostrum exercitationem ullam…
-                          </p>
-                          <a
-                            class="btn-details mt-10"
-                            href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
-                            tabindex="-1"
-                          >
-                            View details{" "}
-                            <i class="icon ion-md-add-circle-outline"></i>
-                          </a>
+                          <div className="overlay">
+                            <div className="text">
+                              <div class="pmeta font-second">
+                                {" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/construction/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Construction
+                                </a>{" "}
+                                /{" "}
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio-cat/energy/"
+                                  rel="tag"
+                                  tabindex="-1"
+                                >
+                                  Energy
+                                </a>
+                              </div>
+                              <br />
+                              <h4 class="project-name">
+                                <a
+                                  href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                  tabindex="-1"
+                                >
+                                  Industry Complex
+                                </a>
+                              </h4>
+                              <p className="mt-4 text-base">
+                                Sed ut perspiciatis unde omnis iste nas error
+                                sit voluptatem accusantium doloremque
+                                laudantium, totam aperiam, eaque ipsa quae ab
+                                illo inventore veritatis et quasi architecto. Ut
+                                enim ad minima veniam, quis nostrum
+                                exercitationem ullam…
+                              </p>
+                              <a
+                                class="btn-details mt-10"
+                                href="https://trescorp.saplingedu.in/portfolio/industry-complex/"
+                                tabindex="-1"
+                              >
+                                View details{" "}
+                                <i class="icon ion-md-add-circle-outline"></i>
+                              </a>
+                            </div>
                           </div>
-                        </div>
                         </div>
                       </div>
                     </div>

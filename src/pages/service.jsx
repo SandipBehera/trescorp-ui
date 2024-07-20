@@ -14,7 +14,7 @@ const Service = () => {
           </h1>
         </section>
         <section
-            className="container  text-gray-600 body-font md:my-auto"
+            className="container mx-auto max-w-none text-gray-600 body-font md:my-auto"
             style={{ backgroundColor: "black" }}
           >
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">

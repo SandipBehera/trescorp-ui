@@ -3,6 +3,12 @@ module.exports = {
 
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/pages/home.css",
+    {
+      relative: true,
+      transform: (content) => content.replace(/taos:/g, ''),
+      files: ['./src/*.{html,js}'],
+    },
   ],
   theme: {
     screens: {
@@ -34,7 +40,7 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
-      }
+      },
     },
     spacing: {
       px: '1px',
@@ -75,12 +81,22 @@ module.exports = {
       96: '24rem',
       97:'33rem'
     },
+    maxWidth: {
+      'none': 'none',
+    },
   },
   variants: {
     extend: {
       hover: ['group-hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('taos/plugin')
+  ],
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ]
 }
 

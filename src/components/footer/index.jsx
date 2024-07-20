@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       {/* Start Footer */}
       <footer className="main-footer footer-dark bg-cover bg-center relative">
-        <div className="container pt-4">
+        <div className="container mx-auto max-w-none pt-4">
           <section style={{ backgroundColor: "#000000" }}>
             <div className="footer-sec">
               <div className="footer-spacing">

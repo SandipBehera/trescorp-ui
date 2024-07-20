@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from './pages/home';
@@ -7,6 +6,7 @@ import Team from './pages/team';
 import Contact from './pages/contact';
 import Products from './pages/products';
 import Service from './pages/service';
+import './pages/home.css';
 function App() {
   return (
     <Router>

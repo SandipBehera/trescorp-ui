@@ -29,13 +29,13 @@ const teamMembers = [
     description: `Wong Shin Ling is a highly motivated and driven finance manager with twenty-five years’ commodity finance experience in top-level business banking environments. Being an experienced professional, she is equipped with the business awareness and strategic planning as well as providing financial solutions which help organizations grow financially. Having high numeracy and sound technical skills she makes sure of the smooth flow of products and services delivery and keeping abreast of changes in financial regulations and legislation.
     Wong Shin Ling holds a degree in Bachelor of Business in Business Administration from the National University of Singapore. Her strong management skill, attentive to details and an investigative nature is bringing productive changes to the business.`,
   },
-  {
-    name: "Royston Wu",
-    position: "Chartering / Broking Manager",
-    description: `Dynamic, self-driven and result-focused with more than 25 years of marine and oil industry, Royston is experienced in terminalling operations / optimization and chartering in vessels for shipboard fuel oil blending. He improves logical planning, reporting and chartering operations.
-    In addition, he is an outstanding international tanker broker covering East of Suez to United States, securing and developing long-term relationships with oil majors and international trading houses.
-    He holds a Second Mates Certificate of Competency.`,
-  },
+  // {
+  //   name: "Royston Wu",
+  //   position: "Chartering / Broking Manager",
+  //   description: `Dynamic, self-driven and result-focused with more than 25 years of marine and oil industry, Royston is experienced in terminalling operations / optimization and chartering in vessels for shipboard fuel oil blending. He improves logical planning, reporting and chartering operations.
+  //   In addition, he is an outstanding international tanker broker covering East of Suez to United States, securing and developing long-term relationships with oil majors and international trading houses.
+  //   He holds a Second Mates Certificate of Competency.`,
+  // },
   {
     name: "Saif Al Amri",
     position: "LNG Director",
