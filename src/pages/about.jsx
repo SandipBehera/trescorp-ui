@@ -26,7 +26,7 @@ const About = () => {
       <main>
         <div style={{ overflow: "hidden" }}>
           {/* <!-- Your content --> */}
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <h1
               className="text-xs lg:text-9xl mb-2"
               style={{ textTransform: "uppercase" }}
@@ -65,10 +65,10 @@ const About = () => {
 
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <CardGrid cards={cards} />
             </section>
-            <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+            <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-3/5">
                 <div>
@@ -93,7 +93,7 @@ const About = () => {
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-2/5">
                 <img

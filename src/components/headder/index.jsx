@@ -32,16 +32,16 @@ export const Headders = () => {
               <div className="flex-shrink-0">
                 <img className="h-8 w-100" src="../../img/Trescorp-logo.png" alt="Your Company" />
               </div>
-              <div className="hidden md:flex ml-88 items-baseline space-x-4">
+              {/* <div className="hidden md:flex ml-88 items-baseline space-x-4">
                 <a href="/" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`} aria-current="page">Home</a>
                 <a href="/about-us" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>About Us</a>
                 <a href="/team" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>Executive Team</a>
                 <a href="/our-service" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>Our Services</a>
                 <a href="/products" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>Products</a>
                 <a href="/contact-us" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>Contact Us</a>
-              </div>
+              </div> */}
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex md:visible">
               <button
                 type="button"
                 className={`relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:nav-text focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}

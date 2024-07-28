@@ -29,9 +29,9 @@ const HomePage = () => {
       <main>
         <div style={{ overflow: "hidden" }}>
           {/* <!-- Your content --> */}
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 md:w-3/5" data-taos-offset="300">
+              <div className="p-4 md:w-3/5" >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-14">
                   <div>
                     <span class="elementor-icon elementor-animation-">
@@ -109,10 +109,9 @@ const HomePage = () => {
               </div>
               <div className="p-4 md:w-2/5">
                 <img
-                  className="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0 object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
+                  className="rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
                   src="../img/story-home4.jpg"
-                  data-taos-offset="300"
                 />
               </div>
             </div>
@@ -200,7 +199,7 @@ const HomePage = () => {
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-3/5">
                 <div>

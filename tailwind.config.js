@@ -4,11 +4,11 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/pages/home.css",
-    {
-      relative: true,
-      transform: (content) => content.replace(/taos:/g, ''),
-      files: ['./src/*.{html,js}'],
-    },
+    // {
+    //   relative: true,
+    //   transform: (content) => content.replace(/taos:/g, ''),
+    //   files: ['./src/*.{html,js}'],
+    // },
   ],
   theme: {
     screens: {
@@ -90,13 +90,13 @@ module.exports = {
       hover: ['group-hover'],
     },
   },
-  plugins: [
-    require('taos/plugin')
-  ],
-  safelist: [
-    '!duration-[0ms]',
-    '!delay-[0ms]',
-    'html.js :where([class*="taos:"]:not(.taos-init))'
-  ]
+  // plugins: [
+  //   require('taos/plugin')
+  // ],
+  // safelist: [
+  //   '!duration-[0ms]',
+  //   '!delay-[0ms]',
+  //   'html.js :where([class*="taos:"]:not(.taos-init))'
+  // ]
 }
 
