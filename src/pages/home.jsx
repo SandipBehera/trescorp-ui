@@ -118,7 +118,7 @@ const HomePage = () => {
           </section>
           <section
           id="animated-section"
-            className="container mx-auto max-w-none text-gray-600 body-font md:my-auto"
+            className="container  text-gray-600 body-font mx-auto  px-4 py-6 sm:px-6 lg:px-40 md:my-20"
             style={{ backgroundColor: "black" }}
           >
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -266,7 +266,7 @@ const HomePage = () => {
               
             </div>
           </section>
-          <section className="container mx-auto max-w-none text-gray-600 body-font md:my-auto">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 ">
               <div className="md:w-auto">
                 <div className="p-4 md:w-auto">
