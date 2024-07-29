@@ -132,9 +132,12 @@ const Team = () => {
                 <div key={index}className="flex flex-col md:flex-row items-center bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 mb-4">
                 <div className="md:flex-shrink-0">
                   {/* Placeholder for an image or avatar */}
-                  <div className="h-32 w-32 bg-gray-200 rounded-full"></div>
+                  <div className="h-full w-full bg-gray-200 rounded-full">
+                  <img src="../img/ai-human.png" alt="team member" className="h-32 w-32 rounded-full object-cover object-center" />
+                  </div>
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
+                 
                   <h2 className="text-lg font-medium text-gray-900 mb-2 hover:text-yellow-500">
                     {member.name}
                   </h2>
