@@ -164,7 +164,7 @@ const HomePage = () => {
               <div className="mt-10 md:w-fill mt-20">
              
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-14">
-                <SlideInLeftComponent>
+                
                   <div className="custom-card">
                     <img
                       src="../img/icon/icon-service4-home3.png"
@@ -180,8 +180,7 @@ const HomePage = () => {
                       </p>
                     </div>
                   </div>
-                  </SlideInLeftComponent>
-                  <SlideInLeftComponent>
+                 
                   <div className="custom-card">
                     <img
                       src="../img/icon/icon-service1-home3.png"
@@ -204,7 +203,7 @@ const HomePage = () => {
                       </p>
                     </div>
                   </div>
-                  </SlideInLeftComponent>
+                  
                 </div>
                 
               </div>
