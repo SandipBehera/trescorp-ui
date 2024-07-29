@@ -7,6 +7,7 @@ import Contact from './pages/contact';
 import Products from './pages/products';
 import Service from './pages/service';
 import './pages/home.css';
+import Clients from './pages/clients';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact-us" element={<Contact/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/our-service" element={<Service/>} />
+          <Route path="/counter-party" element={<Clients/>} />
         </Routes>
      
     </Router>

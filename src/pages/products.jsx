@@ -53,7 +53,7 @@ const Products = () => {
             <main>
             <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <h1
-              className="text-xs lg:text-7xl mb-2"
+              className="text-xs place_margin lg:text-7xl mb-2"
               style={{ textTransform: "uppercase" }}
             >
               Our Products

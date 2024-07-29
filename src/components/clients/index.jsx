@@ -27,7 +27,9 @@ const ClientLogoCarosel = ({builderData}) => {
       {data ? (
         data.concat(data)?.map((image, index) => (
           <div className="slide" key={image.id}>
+            <a href='/counter-party'  rel="noreferrer">
             <img src={image.builder_logo} alt={`Logo ${image.builder_name}`} />
+            </a>
           </div>
 
         ))

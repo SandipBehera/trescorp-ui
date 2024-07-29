@@ -522,11 +522,18 @@
   color: #000000; /* Tailwind's gray-700 */
   max-width: 300px;
 }
-
+.place_margin{
+  margin-top: 5rem;
+  font-size: x-large;
+  font-weight: 700;
+}
 /* Medium screens (768px and up) */
 @media screen and (min-width: 768px) {
   .paragraph {
     font-size: 1.125rem; /* Tailwind's text-lg */
+  }
+  .place_margin{
+    margin-top: 5rem;
   }
 }
 
@@ -535,6 +542,9 @@
   .paragraph {
     font-size: 1.25rem; /* Tailwind's text-xl */
     max-width: fit-content;
+  }
+  .place_margin{
+    margin-top: 5rem;
   }
 }
 /* Base styles for the heading */
@@ -559,3 +569,4 @@
     font-size: 6rem; /* Tailwind's text-8xl */
   }
 }
+

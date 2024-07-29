@@ -565,12 +565,22 @@
   max-width: 300px;
 }
 
+.place_margin{
+  margin-top: 5rem;
+  font-size: x-large;
+  font-weight: 700;
+}
+
 /* Medium screens (768px and up) */
 
 @media screen and (min-width: 768px) {
   .paragraph {
     font-size: 1.125rem;
     /* Tailwind's text-lg */
+  }
+
+  .place_margin{
+    margin-top: 5rem;
   }
 }
 
@@ -583,6 +593,10 @@
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
+  }
+
+  .place_margin{
+    margin-top: 5rem;
   }
 }
 
@@ -614,3 +628,4 @@
     /* Tailwind's text-8xl */
   }
 }
+
