@@ -42,7 +42,7 @@ const Sliders = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Welcome to TressCorp..!
+                Welcome to TresCorp..!
               </h1>
               <p
                 className="text-6xl lg:text-4xl font-bold"
@@ -74,7 +74,7 @@ const Sliders = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Welcome to TressCorp..!
+                Welcome to TresCorp..!
               </h1>
               <p
                 className="text-6xl lg:text-9xl font-bold"

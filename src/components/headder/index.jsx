@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import '../../pages/home.css';
 export const Headders = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,30 +41,19 @@ export const Headders = () => {
                 <a href="/contact-us" className={`rounded-md px-3 py-2 text-sm font-medium ${isScrolled ? 'nav-text' : 'text-gray-300 hover:nav-text'}`}>Contact Us</a>
               </div> */}
             </div>
-            <div className="-mr-2 flex md:visible" style={{
-              width: '60px',
-              height: '60px',
-              fontSize: '30px',
-              backgroundColor: '#9B9B9B54',
-              color: '#000000',
-              borderRadius: '100px',
-              borderStyle: 'solid',
-              borderWidth: '1px 1px 1px 1px',
-              borderColor: '#FFFFFF',
-              padding: '7px 7px 7px 7px'
-            }}>
+            <div className="-mr-2 nav_button_custom flex md:visible">
               <button
                 type="button"
-                className={`relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:nav-text focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}
+                className={`relative inline-flex items-center justify-center rounded-full p-2 text-gray-400 hover:bg-gray-700 hover:nav-text focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ${isScrolled ? 'bg-gray-800' : 'bg-white'}`}
                 aria-controls="mobile-menu"
                 aria-expanded={isMobileMenuOpen}
                 onClick={toggleMobileMenu}
               >
                 <span className="sr-only">Open main menu</span>
-                <svg className={`${isMobileMenuOpen ? 'hidden' : 'block'} h-8 w-8`} fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                <svg className={`${isMobileMenuOpen ? 'hidden' : 'block'} h-6 w-6 md: h-8 w-8`} fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
-                <svg className={`${isMobileMenuOpen ? 'block' : 'hidden'} h-8 w-8`} fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                <svg className={`${isMobileMenuOpen ? 'block' : 'hidden'} h-6 w-6 md: h-8 w-8`} fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>

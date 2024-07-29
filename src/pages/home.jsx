@@ -238,23 +238,24 @@ const HomePage = () => {
             </div>
           </section>
           <section
-            className="container mx-auto max-w-none text-gray-600 body-font md:my-auto"
+            className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20"
             style={{ backgroundColor: "#f7f9fb" }}
           >
-            <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 ">
-              <div className="md:w-auto">
-                <div className="p-4 md:w-auto">
+            <div className="flex flex-wrap -m-4 ">
+              
+                <div className="p-4 ">
                   <div>
                     <h1
-                      className="text-xs lg:text-8xl mb-2"
+                      className="heading"
                       style={{ textTransform: "capitalize" }}
                     >
                       Counter Party
                     </h1>
 
-                    <p className="mb-4">
+                    <p className="paragraph">
                       TRESCORP’s clients consist of internationally renowned
-                      traders and oil majors.<br></br>
+                      traders and oil majors.</p>
+                      <p className="paragraph">
                       Among them are Chevron, Glencore and Hin Leong which have
                       successfully lifted our products from Thailand.
                     </p>
@@ -262,7 +263,7 @@ const HomePage = () => {
 
                   <ClientLogoCarosel builderData={clientList} />
                 </div>
-              </div>
+              
             </div>
           </section>
           <section className="container mx-auto max-w-none text-gray-600 body-font md:my-auto">
@@ -271,7 +272,7 @@ const HomePage = () => {
                 <div className="p-4 md:w-auto">
                   <div>
                     <h1
-                      className="text-xs lg:text-8xl mb-2"
+                      className="heading"
                       style={{ textTransform: "capitalize" }}
                     >
                       INSIGHTS
