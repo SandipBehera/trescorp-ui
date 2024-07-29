@@ -34,7 +34,7 @@ const HomePage = () => {
               <div className="p-4 md:w-3/5" >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-14">
                   <div>
-                    <span class="elementor-icon elementor-animation-">
+                    <span class="elementor-icon elementor-animation">
                       <svg
                         aria-hidden="true"
                         class="e-font-icon-svg e-fas-ship"

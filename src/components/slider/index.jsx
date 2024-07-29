@@ -23,7 +23,7 @@ const Sliders = () => {
         <div className="relative">
           {/* <img src="../../img/oil-logistic-3.jpg" alt="Slide 1" className="w-full h-lvh md:h-lvh  object-cover" /> */}
           <video
-            src="../../video/sample.mp4" // Update with the correct path to your video file
+            src="../../video/VIDEO_TRESCORP.mp4" // Update with the correct path to your video file
             className="w-full h-lvh md:h-lvh object-cover"
             autoPlay
             loop
@@ -45,20 +45,25 @@ const Sliders = () => {
                 Welcome to TressCorp..!
               </h1>
               <p
-                className="text-6xl lg:text-9xl font-bold"
+                className="text-6xl lg:text-4xl font-bold"
                 style={{ color: "white" }}
               >
-                Logistics
+                We connect vital resources to power and build the world
               </p>
             </div>
           </div>
         </div>
         <div className="relative">
-          <img
-            src="../../img/supply.jpg"
-            alt="Slide 2"
-            className="w-full h-lvh md:h-lvh sm:h-dvh object-cover"
-          />
+        <video
+            src="../../video/sample.mp4" // Update with the correct path to your video file
+            className="w-full h-lvh md:h-lvh object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            Your browser does not support the video tag.
+          </video>
           <div className="absolute inset-0 flex items-center justify-center text-white">
             <div className="text-center">
               <h1
