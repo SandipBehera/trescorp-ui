@@ -32,13 +32,30 @@ const Contact = () => {
         <Layout>
             <main>
                 <div style={{ overflow: "hidden" }}>
+                <section
+  className="container mx-auto max-w-none text-gray-600 body-font md:my-auto relative"
+  style={{ backgroundColor: "black" }}
+>
+  <div className="absolute inset-0 bg-gray-800 opactiy-70">
+    <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: "url('../img/2968.jpg')" }}></div>
+  </div>
+  <div className="relative flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <div className="my-20 sm:my-5 md:my-20">
+      <span
+        className="text-white transition-all duration-300 inline-block font-bold text-4xl md:text-6xl lg:text-7xl"
+        style={{
+          color: "white",
+          transition: "all .3s ease",
+          display: "inline-block",
+        }}
+      >
+      </span>
+      <span className="ekit-heading__shadow-text2"> Contact Us</span>
+    </div>
+  </div>
+</section>
                     <section className="container text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
-                        <h1
-                            className="text-xs place_margin lg:text-7xl mb-2"
-                            style={{ textTransform: "uppercase" }}
-                        >
-                            Contact Us
-                        </h1>
+                        
                         <div className="flex flex-wrap -m-4 mt-10">
                             <div className="p-10 md:w-3/5">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.262993288052!2d103.8527292!3d1.2844818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190932680f41%3A0x50da132f16dc7865!2sTrescorp%20Alliance%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1720613804167!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

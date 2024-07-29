@@ -12,10 +12,11 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '640px',
       md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
     },
     colors: {
       'blue': '#1fb6ff',

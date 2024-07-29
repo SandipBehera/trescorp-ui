@@ -3,6 +3,9 @@ import Layout from "../components/layout";
 import Sliders from "../components/slider";
 import "./home.css";
 import ClientLogoCarosel from "../components/clients";
+import FaderComponent from "../components/fader";
+import SlideInLeftComponent from "../components/slideIn";
+import SlideInRightComponent from "../components/slideInright";
 
 const HomePage = () => {
   const [clientList, setBuilderList] = useState([]);
@@ -116,6 +119,7 @@ const HomePage = () => {
               </div>
             </div>
           </section>
+          <FaderComponent>
           <section
           id="animated-section"
             className="max-w-fit text-gray-600 body-font mx-auto  px-4 py-6 sm:px-6 lg:px-40 max-w-fit md: max-w-fit my-20"
@@ -156,8 +160,11 @@ const HomePage = () => {
 
                 <span className="ekit-heading__shadow-text">WORK</span>
               </div>
+             
               <div className="mt-10 md:w-fill mt-20">
+             
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-14">
+                <SlideInLeftComponent>
                   <div className="custom-card">
                     <img
                       src="../img/icon/icon-service4-home3.png"
@@ -173,6 +180,8 @@ const HomePage = () => {
                       </p>
                     </div>
                   </div>
+                  </SlideInLeftComponent>
+                  <SlideInLeftComponent>
                   <div className="custom-card">
                     <img
                       src="../img/icon/icon-service1-home3.png"
@@ -195,13 +204,20 @@ const HomePage = () => {
                       </p>
                     </div>
                   </div>
+                  </SlideInLeftComponent>
                 </div>
+                
               </div>
+             
             </div>
           </section>
+          </FaderComponent>
           <section className=" text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+           
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+           
               <div className="p-4 md:w-3/5">
+              <SlideInRightComponent>
                 <div>
                   <h1
                     className="btm text-xs lg:text-8xl mb-2"
@@ -227,15 +243,21 @@ const HomePage = () => {
                     East, Africa, Asia, and the Americas.
                   </p>
                 </div>
+                </SlideInRightComponent>
               </div>
+
               <div className="p-4 md:w-2/5">
+              <SlideInRightComponent>
                 <img
                   className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
                   alt="hero"
                   src="../img/served-1.jpg"
                 />
+                </SlideInRightComponent>
               </div>
+             
             </div>
+            
           </section>
           <section
             className="max-w-fit  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20"
@@ -278,6 +300,7 @@ const HomePage = () => {
                       INSIGHTS
                     </h1>
                   </div>
+                  <SlideInLeftComponent>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-14">
                     <div>
                       <div className="image-container">
@@ -454,6 +477,7 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
+                  </SlideInLeftComponent>
                 </div>
               </div>
             </div>

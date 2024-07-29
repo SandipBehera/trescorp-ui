@@ -50,13 +50,29 @@ const Team = () => {
     <Layout>
       <main>
         <div style={{ overflow: "hidden" }}>
+        <section
+  className="container mx-auto max-w-none text-gray-600 body-font md:my-auto relative"
+  style={{ backgroundColor: "black" }}
+>
+  <div className="absolute inset-0 bg-gray-800 opactiy-70">
+    <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: "url('../img/2968.jpg')" }}></div>
+  </div>
+  <div className="relative flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <div className="my-20 sm:my-5 md:my-20">
+      <span
+        className="text-white transition-all duration-300 inline-block font-bold text-4xl md:text-6xl lg:text-7xl"
+        style={{
+          color: "white",
+          transition: "all .3s ease",
+          display: "inline-block",
+        }}
+      >
+      </span>
+      <span className="ekit-heading__shadow-text2"> Our Management</span>
+    </div>
+  </div>
+</section>
           <section className="container text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
-            <h1
-              className="text-xs place_margin lg:text-7xl mb-2"
-              style={{ textTransform: "uppercase" }}
-            >
-              Our Management
-            </h1>
             <div className="flex flex-wrap -m-4 mt-10">
               {teamMembers.map((member, index) => (
                 <div key={index}className="flex flex-col md:flex-row items-center bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 mb-4">
