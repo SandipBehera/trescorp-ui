@@ -43,7 +43,7 @@ const About = () => {
               </div>
               <div className="p-4 md:w-3/5">
                 <div className="px-0 mx-auto lg:px-4 mx-40">
-                    <p className="text-base" style={{color:'#ffd100'}}>
+                    <p className="text-base" style={{color:'#e5a300'}}>
                     OUR STORY  
                     </p>
                     <h1 className="text-3xl font-extrabold text-gray-900 mb-4">

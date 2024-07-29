@@ -40,12 +40,12 @@ const Contact = () => {
                             Contact Us
                         </h1>
                         <div className="flex flex-wrap -m-4 mt-10">
-                            <div className="p-4 md:w-2/5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.262993288052!2d103.8527292!3d1.2844818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190932680f41%3A0x50da132f16dc7865!2sTrescorp%20Alliance%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1720613804167!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div className="p-10 md:w-3/5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.262993288052!2d103.8527292!3d1.2844818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190932680f41%3A0x50da132f16dc7865!2sTrescorp%20Alliance%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1720613804167!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <div className="p-4 md:w-3/5">
-                                <div className="px-4 lg:mx-40 sm:mx-0">
-                                    <p className="text-base" style={{color:'#ffd100'}}>
+                            <div className="p-4 md:w-2/5">
+                                <div className="px-4">
+                                    <p className="text-base" style={{color:'#e5a300'}}>
                                         Contact Us
                                     </p>
                                     <h1 className="text-3xl font-extrabold text-gray-900 mb-4">
