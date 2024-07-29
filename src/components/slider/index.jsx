@@ -7,9 +7,9 @@ const Sliders = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500, // Animation speed between slides (milliseconds)
+    speed: 300, // Animation speed between slides (milliseconds)
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 10000, // Delay between slides during autoplay (milliseconds)
+    autoplaySpeed: 20000, // Delay between slides during autoplay (milliseconds)
     slidesToShow: 1,
     slidesToScroll: 1
   };
