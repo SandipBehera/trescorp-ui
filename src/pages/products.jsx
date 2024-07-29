@@ -67,7 +67,7 @@ const Products = () => {
                 />
               </div>
               <div className="p-4 md:w-3/5">
-                <div className="px-4 mx-40">
+                <div className="px-0 mx-auto lg:px-4 mx-40">
                     
                     <p className="text-lg leading-relaxed">
                     Trescorp Alliance Pte Ltd (Trescorp) is a trading company which focuses on crude oil and petroleum products. We specialise in sourcing and trading of crude oil and refined petroleum products on a global scale and have established strong supply direct from the source. Sales are channeled through our extensive networks internationally. Trescorp is a complete, end to end, supply chain provider.

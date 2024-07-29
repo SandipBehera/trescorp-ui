@@ -44,7 +44,7 @@ const Contact = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.262993288052!2d103.8527292!3d1.2844818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190932680f41%3A0x50da132f16dc7865!2sTrescorp%20Alliance%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1720613804167!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <div className="p-4 md:w-3/5">
-                                <div className="px-4 mx-40">
+                                <div className="px-4 lg:mx-40 sm:mx-0">
                                     <p className="text-base" style={{color:'#ffd100'}}>
                                         Contact Us
                                     </p>
@@ -67,8 +67,8 @@ const Contact = () => {
                             </div>
                         </div>
                     </section>
-                    <section>
-                    <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
+                    <section className="container text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+                    <form onSubmit={handleSubmit} className="p-4 max-w-lg lg:mx-40 sm:mx-auto">
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
             <input
@@ -114,7 +114,8 @@ const Contact = () => {
             </button>
           </div>
         </form>
-                    </section>
+        </section>
+                   
                 </div>
                 </main>
         </Layout>
