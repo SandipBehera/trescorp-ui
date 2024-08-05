@@ -28,7 +28,39 @@ const HomePage = () => {
   }, []);
   return (
     <Layout>
-      <Sliders />
+      <div className="relative">
+          {/* <img src="../../img/oil-logistic-3.jpg" alt="Slide 1" className="w-full h-lvh md:h-lvh  object-cover" /> */}
+          <video
+            src="../video/VIDEO_TRESCORP.mp4" // Update with the correct path to your video file
+            className="w-full h-lvh md:h-lvh object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            Your browser does not support the video tag.
+          </video>
+          <div className="absolute inset-0 flex items-center justify-center text-white">
+            <div className="text-center">
+              <h1
+                className="text-xs lg:text-2xl mb-2"
+                style={{
+                  color: "white",
+                  letterSpacing: "3.9px",
+                  textTransform: "uppercase",
+                }}
+              >
+                Welcome to TresCorp..!
+              </h1>
+              <p
+                className="text-6xl lg:text-4xl font-bold"
+                style={{ color: "white" }}
+              >
+                We connect vital resources to power and build the world
+              </p>
+            </div>
+          </div>
+        </div>
       <main>
         <div style={{ overflow: "hidden" }}>
           {/* <!-- Your content --> */}
