@@ -56,7 +56,7 @@ const ProductDetails = () => {
             <div className="p-4 md:w-full lg:w-full" key={item?.id}>
               <div>
                 <h1
-                  className="text-xs lg:text-6xl mb-2 "
+                  className="heading lg:text-6xl mb-2 "
                   style={{ textTransform: "capitalize",textAlign:'center' }}
                 >
                   {item.name}
