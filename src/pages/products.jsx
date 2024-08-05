@@ -6,41 +6,70 @@ import OverlayCard from "../components/cards/overlayCard";
 const Products = () => {
     const data = [
         {
-            type:'mining',
-            category:'energy',
-            title:'Petrochemicals',
-            img:'img-service1-1.jpg'
+            type:'',
+            category:'',
+            title:'Crude Oil',
+            img:'img/icon/icon-product-5.png',
+            url:'products/Crude_Oil'
         },
         {
-            type:'mining',
-            category:'energy',
-            title:'FUEL OIL TRADER DUBAI',
-            img:'img-service5-1.jpg'
+            type:'',
+            category:'',
+            title:'Condensate',
+            img:'img/icon/icon-product-4.png',
+            url:'products/Condensate'
         },
+        {
+          type:'mining',
+          category:'energy',
+          title:'LPG',
+          img:'img/icon/icon-product-10.png',
+          url:'products/LPG'
+      },
         {
             type:'mining',
             category:'energy',
             title:'LNG',
-            img:'img-service1-1.jpg'
+            img:'img/icon/icon-product-13-LNG.png',
+            url:'products/LNG'
         },
         {
             type:'supply chain',
             category:'Transport',
-            title:'Condensate',
-            img:'img-service6-1.jpg'
+            title:'Mogas',
+            img:'img/icon/icon-product-7.png',
+            url:'products/Mogas'
         },
-        {
-            type:'mining',
-            category:'energy',
-            title:'LPG',
-            img:'img-service4-1.jpg'
-        },
+        
         {
             type:'CRUDE OIL',
             category:'energy',
-            title:'CRUDE OIL TRADER DUBAI....',
-            img:'img-service5-1.jpg'
-        }
+            title:'Gas Oil',
+            img:'img/icon/icon-product-11.png',
+            url:'products/Gas_Oil'
+        },
+
+        {
+          type:'CRUDE OIL',
+          category:'energy',
+          title:'Naphtha',
+          img:'img/icon/icon-product-2.png',
+          url:'products/Naphtha'
+      },
+      {
+        type:'CRUDE OIL',
+        category:'energy',
+        title:'Fuel Oil',
+        img:'img/icon/icon-product-9.png',
+        url:'products/Fuel_oil'
+    },
+    {
+      type:'CRUDE OIL',
+      category:'energy',
+      title:'Petrochemicals',
+      img:'img/icon/icon-product-9.png',
+      url:''
+  },
     ]
     return(
         <Layout>

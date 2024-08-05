@@ -2,106 +2,106 @@
    
     {
      "id":"2",
-     "builder_name":"Poulomi",
-     "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/shell-logo.jpg"
+     "builder_name":"shell",
+     "builder_logo":"/img/client/shell-logo.jpg"
     },
     {
      "id":"3",
-     "builder_name":"Brigade",
-     "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/gps-logo.jpg"
+     "builder_name":"gps",
+     "builder_logo":"/img/client/gps-logo.jpg"
     },
     {
      "id":"4",
-     "builder_name":"DLF",
-     "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/bp-logo.jpg"
+     "builder_name":"bp",
+     "builder_logo":"/img/client/bp-logo.jpg"
     },
     {
      "id":"5",
-     "builder_name":"Godrej Properties",
-     "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/bgn-logo.jpg"
+     "builder_name":"bgn",
+     "builder_logo":"/img/client/bgn-logo.jpg"
     },
     {
      "id":"6",
-     "builder_name":"Shapoorji Pallonji",
-     "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/chinaoil-new.jpg"
+     "builder_name":"Schinaoil",
+     "builder_logo":"/img/client/chinaoil-new.jpg"
     },
     {
        "id":"7",
-       "builder_name":"Sobha",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/petron-logo.jpg"
+       "builder_name":"petron",
+       "builder_logo":"/img/client/petron-logo.jpg"
     },
     {
        "id":"8",
-       "builder_name":"Omaxe",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/luke-oil.jpg"
+       "builder_name":"luke",
+       "builder_logo":"/img/client/luke-oil.jpg"
     },
     {
        "id":"9",
-       "builder_name":"Prestige",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/Chevron.jpg"
+       "builder_name":"Chevron",
+       "builder_logo":"/img/client/Chevron.jpg"
     },
     {
        "id":"10",
-       "builder_name":"Mahindra Lifespace",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/VITOL.jpg"
+       "builder_name":"VITOL",
+       "builder_logo":"/img/client/VITOL.jpg"
     },
     {
        "id":"11",
-       "builder_name":"Sumadhura",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/bp.jpg"
+       "builder_name":"bp",
+       "builder_logo":"/img/client/bp.jpg"
     },
     {
        "id":"12",
-       "builder_name":"Ramky",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/Orpic.jpg"
+       "builder_name":"Orpic",
+       "builder_logo":"/img/client/Orpic.jpg"
     },
     {
        "id":"13",
-       "builder_name":"Phoenix",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/oman-trading.jpg"
+       "builder_name":"oman-trading",
+       "builder_logo":"/img/client/oman-trading.jpg"
     },
     {
        "id":"14",
-       "builder_name":"Vasavi",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/trafigura.jpg"
+       "builder_name":"trafigura",
+       "builder_logo":"/img/client/trafigura.jpg"
     },
     {
        "id":"15",
-       "builder_name":"Ambience",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/HinLeong.jpg"
+       "builder_name":"HinLeong",
+       "builder_logo":"/img/client/HinLeong.jpg"
     },
     {
        "id":"16",
-       "builder_name":"SAS",
-       "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/GlenCore.jpg"
+       "builder_name":"GlenCore",
+       "builder_logo":"/img/client/GlenCore.jpg"
     },{
         "id":"17",
         "builder_name":"Sumadhura",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/ARA.jpg"
+        "builder_logo":"/img/client/ARA.jpg"
      },
      {
         "id":"12",
-        "builder_name":"Ramky",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/Chemioil.jpg"
+        "builder_name":"ARA",
+        "builder_logo":"/img/client/Chemioil.jpg"
      },
      {
         "id":"13",
-        "builder_name":"Phoenix",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/Exxon.jpg"
+        "builder_name":"Exxon",
+        "builder_logo":"/img/client/Exxon.jpg"
      },
      {
         "id":"14",
-        "builder_name":"Vasavi",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/gunvor.jpg"
+        "builder_name":"gunvor",
+        "builder_logo":"/img/client/gunvor.jpg"
      },
      {
         "id":"15",
-        "builder_name":"Ambience",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/Ministry.jpg"
+        "builder_name":"Ministry",
+        "builder_logo":"/img/client/Ministry.jpg"
      },
      {
         "id":"16",
-        "builder_name":"SAS",
-        "builder_logo":"https://trescorp.saplingedu.in/wp-content/uploads/2024/06/noblegroup.jpg"
+        "builder_name":"noblegroup",
+        "builder_logo":"/img/client/noblegroup.jpg"
      }
  ]

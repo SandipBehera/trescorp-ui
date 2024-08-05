@@ -390,6 +390,11 @@
   width: 100%; /* Adjust as needed */
   max-width: 390px; /* Adjust as needed */
 }
+.image-container1 {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  max-width: 390px; /* Adjust as needed */
+}
 
 .image {
   width: 100%;
@@ -410,6 +415,9 @@
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+.image-container1 .overlay {
+  opacity: 1;
 }
 
 .image-container:hover .overlay {

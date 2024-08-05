@@ -1,0 +1,93 @@
+{
+    "data":[{
+        "id": 1,
+        "url":"Condensate",
+        "name": "Condensate",
+        "description": [
+        "Condensate is a liquid byproduct of natural gas production. It is a mixture of hydrocarbons that are liquid at normal surface temperatures and pressures. It is a natural gas liquid (NGL) that is used to make gasoline and other fuels."
+        ],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 100,
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "url":"LPG",
+        "name": "LPG",
+        "description": ["Liquefied petroleum gas or liquid petroleum gas (LPG or LP gas), is a flammable mixture of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles."],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 200,
+        "stock": 100
+    },
+    {
+        "id": 3,
+        "url":"Crude_Oil",
+        "name": "Crude Oil",
+        "description": ["Crude oil trading in Dubai is a very active market and also well known to the investors from all over the world. The price of oil moves day to day and in this situation, there are a lot of good trading opportunities and it does not matter that if you want to focus on a longer-term investor or you would like to go for day trading futures. Crude oil trader Dubai is one of the most actively trading commodities around the world. Responsibilities for the role of crude oil shipment Dubai includes working alongside with people of different jobs that is operators, analysts, and originators to make sure that the delivery of the products is accurate and smooth. It is essential for you to realize the physical flows of oil from producers to consumers when it comes to being a smart and knowledgeable investor or trader."],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 300,
+        "stock": 100
+    },
+    {
+        "id": 4,
+        "url":"LNG",
+        "name": "LNG",
+        "description": ["Liquefied natural gas (LNG) is natural gas that has been cooled to a liquid state, at about -260° Fahrenheit, for shipping and storage. The volume of natural gas in its liquid state is about 600 times smaller than its volume in its gaseous state. This process makes it possible to transport natural gas to places pipelines do not reach."],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 400,
+        "stock": 100
+    },
+    {
+        "id": 5,
+        "name": "Kerosene",
+        "description": ["Kerosene, also known as paraffin, lamp oil, and coal oil (an obsolete term), is a combustible hydrocarbon liquid which is derived from petroleum. It is widely used as a fuel in aviation as well as households."],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 500,
+        "stock": 100
+    },
+    {
+        "id": 6,
+        "url":"Naphtha",
+        "name": "Naphtha",
+        "description": ["Naphtha is an oil that is inflammable and contains different hydrocarbons, it is obtained by the process of dry distillation of organic substances such as petroleum, coal or shale. This product may be crude oil or a more refined product such as Kerosene in different regions or industries. The safety data sheet of naphtha indicates that the nature of this product is non-specific. Looking for naphtha in Dubai? One of the world’s best naphtha traders is Trescorp and it is one of those few platforms that have this facility in Dubai for you. Here at Trescorp, we source and store, also blend all those products and grades that are most actively demanded.",
+        "Naphtha as a solvent is used as aromatics along with white spirit, benzene, and toluene and mix xylene. At Trescorp, we work with our customers to focus on their needs and hence on the long-term relationships with them. Our product coverage is broad and thus it helps us to take the benefit of this product’s high substitutability. Our team of this product naphtha works with the condensate, gasoline, LPG and crude desks to get the pricing of all the grades and products. It increases to deliver cost-effective and targeted shipments to our customers. Naphtha supplier Dubai is Trescorp at its best."
+    ],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 600,
+        "stock": 100
+    },
+    {
+        "id": 7,
+        "url":"Mogas",
+        "name": "Mogas",
+        "description": ["Mogas is an aircraft fuel that is light and different from the aviation gasoline- also known as Avgas. Mogas supplier Dubai may refer to the company that is basically an oil company and mainly deals with industrial and automobile lubricants. Looking for the mogas supply in Dubai? This is the right platform for you. Trescorp surely meets with the standards of your expectations and certainly provides you with the absolutely amazing and the best service. For the production of Mogas, industry experts, tenured manufacturing personnel, innovative engineers and a support team is required and that all are behind the Trescorp.",
+        "The quality of the product is promised to be non- negotiable. The best service will be provided to you at Trescorp. Mogas is an oil marketing company product that is integrated downstream. The product is durable and has a longer life cycle that means that it costs less over time. Trescorp being a mogas supplier Dubai ensures the integrity, safety and uptime reliability of the product. The most extreme applications of this product may include mining, power, specialty, oil and gas, chemical or petrochemical and refining industries."
+        ],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 700,
+        "stock": 100
+    },
+    {
+        "id": 8,
+        "url":"Fuel_oil",
+        "name": "Fuel oil",
+        "description": ["Fuel oil is the oil that is used as a fuel in a furnace or an engine. Fuel oil is also called furnace oil, heavy oil or marine oil. It is obtained from petroleum distillation and itself, it is a fraction that can either be a residue or a distillate. There are six fuel grades that have their different numerical specifications. And if you are looking for a fuel oil trader Dubai and that too a competitive one, then Trescorp should be your first choice. Also, a drop in the prices of fuel oil is expected this year as announced by the ministry of energy and industry.",
+        "Trescorp offers the fuel oil that comes with as many uses as possible. It heats the businesses as well as homes and fuels ships, trucks and some of the cars. A tiny amount of electricity can also be produced with fuel oil but it is expensive. For peaking power plants, fuel oil can be used as the backup fuel. At Trescorp, we care about our customers and help them with changing needs according to their demands of the product. The pricing of the product is competitive as per demand. Also, the quality of the product is premium and thus our this product is as promising and reliable as the others."
+        ],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 700,
+        "stock": 100
+    },
+    {
+        "id": 8,
+        "url":"Gas_Oil",
+        "name": "Gas Oil",
+        "description": ["Gas oil is basically a type of fuel oil that is distilled from petroleum and it is heavier than paraffin oil. When we talk about gas oil in UAE, different organizations give you numerical specifications that are different from each other for the fuel grades. When the fuel oil number is increased, it increases the length of the carbon chain and the boiling point of the fuel. If the fuel number is increased, the price decreases in that case. If you are searching for a competitive price and premium quality of gas oil in Dubai, this is absolutely the right place where you have come for it.",
+        "The people here at Trescorp have immense knowledge of the gas oil industry and they will always suggest you with the best possible option needed. Trescorp as a gas oil supplier Dubai has proved itself to be among the most capable gas oil distributors in the particular region. They serve almost all the fields of trade that you may need to know. We are eligible of serving the premium quality of the products to meet with all of your requirements. If you need the gas oil for either the domestic or commercial purposes, you can get it from Trescorp for sure. The service is reliable for all the customers whether they are new here or to the existing ones."
+        ],
+        "image": "img/traf8285_23_products_infographics_v13_op-supply-chain-desktop.svg",
+        "price": 700,
+        "stock": 100
+    }
+]
+}
