@@ -33,7 +33,9 @@ export const Headders = () => {
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="h-8 w-100" src="../../img/Logo_White.png" alt="Your Company" />
+                <a href='/'>
+                <img className="h-8 w-100" src="../../img/Logo_White.png" alt="Trescorp" />
+                </a>
               </div>
             </div>
             <div className="-mr-2 nav_button_custom flex md:visible">

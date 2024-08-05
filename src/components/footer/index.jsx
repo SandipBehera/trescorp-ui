@@ -116,32 +116,32 @@ const Footer = () => {
                     </h2>
                     <ul className="footer-links">
                       <li className="li-pad">
-                        <a href="#" className="text-white">
+                        <a href="/" className="text-white">
                           Home
                         </a>
                       </li>
                       <li className="li-pad">
-                        <a href="#" className="text-white ">
+                        <a href="/about-us" className="text-white ">
                           About Us
                         </a>
                       </li>
                       <li className="li-pad">
-                        <a href="#" className="text-white ">
+                        <a href="/team" className="text-white ">
                           Team
                         </a>
                       </li>
                       <li className="li-pad">
-                        <a href="#" className="text-white ">
+                        <a href="/our-service" className="text-white ">
                           Our Services
                         </a>
                       </li>
                       <li className="li-pad">
-                        <a href="#" className="text-white ">
+                        <a href="/products" className="text-white ">
                           Products
                         </a>
                       </li>
                       <li className="li-pad">
-                        <a href="#" className="text-white ">
+                        <a href="/contact-us" className="text-white ">
                           Contact Us
                         </a>
                       </li>
