@@ -21,7 +21,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Implement your form submission logic here
-    console.log(formData);
     submitForm(formData);
     // Clear form after submission (optional)
     setFormData({
