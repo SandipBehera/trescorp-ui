@@ -74,11 +74,7 @@
        "id":"16",
        "builder_name":"GlenCore",
        "builder_logo":"/img/client/GlenCore.jpg"
-    },{
-        "id":"17",
-        "builder_name":"Sumadhura",
-        "builder_logo":"/img/client/ARA.jpg"
-     },
+    },
      {
         "id":"12",
         "builder_name":"ARA",
