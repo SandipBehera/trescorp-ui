@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Layout from "../components/layout";
+import { submitForm } from "../service/submitform";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
+    phone: "",
   });
 
   const handleChange = (e) => {
@@ -20,12 +22,13 @@ const Contact = () => {
     e.preventDefault();
     // Implement your form submission logic here
     console.log(formData);
-    
+    submitForm(formData);
     // Clear form after submission (optional)
     setFormData({
       name: "",
       email: "",
       message: "",
+      phone: "",
     });
   };
   return (
@@ -185,6 +188,23 @@ const Contact = () => {
                       id="name"
                       name="name"
                       value={formData.name}
+                      onChange={handleChange}
+                      required
+                      className="mt-1 block w-full px-3 py-2 border border-blue rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700"
+                    >
+                      Phone No.
+                    </label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      value={formData.phone}
                       onChange={handleChange}
                       required
                       className="mt-1 block w-full px-3 py-2 border border-blue rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
