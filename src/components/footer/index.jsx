@@ -22,6 +22,7 @@ const Footer = () => {
                       where we have strong business relationships with major oil
                       producers
                     </p>
+                    <p style={{ color: "#ffffff",fontWeight:'bolder' }} className="mt-2">Connect With Us</p>
                     <ul className="ekit_social_media">
                       {" "}
                       <li className="elementor-repeater-item">

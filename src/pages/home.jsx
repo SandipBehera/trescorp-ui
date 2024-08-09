@@ -42,7 +42,7 @@ const HomePage = () => {
           </video>
           <div className="absolute inset-0 flex items-center justify-center text-white">
             <div className="text-center">
-              <h1
+              {/* <h1
                 className="text-xs lg:text-2xl mb-2"
                 style={{
                   color: "white",
@@ -57,7 +57,7 @@ const HomePage = () => {
                 style={{ color: "white" }}
               >
                 We connect vital resources to power and build the world
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -100,8 +100,7 @@ const HomePage = () => {
                       </svg>
                     </span>
                     <p className="mb-4">
-                      Trescorp Alliance Pte Ltd (Trescorp) is a trading company
-                      which focuses on crude oil and petroleum products.
+                    Trescorp is a complete, end to end, supply chain provider.
                     </p>
                   </div>
                   <div>
@@ -118,8 +117,7 @@ const HomePage = () => {
                       </svg>
                     </span>
                     <p className="mb-4">
-                      Trescorp Alliance Pte Ltd (Trescorp) is a trading company
-                      which focuses on crude oil and petroleum products.
+                    Trescorp to be the preferred partner of choice in the oil & gas industry.
                     </p>
                   </div>
                   <div>
@@ -136,8 +134,7 @@ const HomePage = () => {
                       </svg>
                     </span>
                     <p className="mb-4">
-                      Trescorp Alliance Pte Ltd (Trescorp) is a trading company
-                      which focuses on crude oil and petroleum products.
+                    Complete supply chain activities, including sourcing, transporting, storage and processing arrangements.
                     </p>
                   </div>
                 </div>
@@ -319,7 +316,7 @@ const HomePage = () => {
               
             </div>
           </section>
-          <section className="max-w-fit  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+          {/* <section className="max-w-fit  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
               <div className="md:w-auto">
                 <div className="p-4 md:w-auto">
@@ -512,7 +509,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </main>
     </Layout>

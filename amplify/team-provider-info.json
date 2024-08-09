@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-trescorp-dev-7b907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382844581:role/amplify-trescorp-dev-7b907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382844581:role/amplify-trescorp-dev-7b907-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-trescorp-dev-7b907-deployment",
+      "UnauthRoleName": "amplify-trescorp-dev-7b907-unauthRole",
+      "StackName": "amplify-trescorp-dev-7b907",
+      "StackId": "arn:aws:cloudformation:us-east-1:992382844581:stack/amplify-trescorp-dev-7b907/ef2161d0-5666-11ef-9af2-0e06734e2e5d",
+      "AmplifyAppId": "d2y10zl5ttshx7"
+    },
+    "categories": {
+      "api": {
+        "trescorp": {}
+      }
+    }
+  }
+}

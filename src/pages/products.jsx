@@ -116,7 +116,7 @@ const Products = () => {
                     Contacting Industris —
                     addresses and information on how best to contact us.
                     </p>
-                    <button className="btn btn-oval inline-flex items-center mt-4 font-bold" >
+                    <button className="btn btn-oval inline-flex items-center mt-4 font-bold" onClick={() => window.location.replace("/contact-us")}>
                         Contat Us
                         </button>
               </div>

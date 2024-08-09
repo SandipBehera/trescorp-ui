@@ -34,7 +34,7 @@ export const Headders = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href='/'>
-                <img className="h-8 w-100" src="../../img/Logo_White.png" alt="Trescorp" />
+                <img className={`h-8 w-100`} src="../../img/Logo_White.png" alt="Trescorp"  style={{display:`${isMobileMenuOpen ? 'none' : 'block'}`}}/>
                 </a>
               </div>
             </div>
@@ -64,6 +64,13 @@ export const Headders = () => {
         className={`fixed inset-0 z-40 flex ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? 'bg-gray-800 opactiy-90' : 'bg-gray-800'}`}
       >
         <div className="w-64 h-full p-4" style={{backgroundColor:'white'}}>
+        <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <a href='/'>
+                <img className="h-8 w-100" src="../../img/Trescorp-logo.png" alt="Trescorp" />
+                </a>
+              </div>
+            </div>
         <div className="space-y-1 px-2 pb-3 pt-10 sm:px-3">
             <a href="/" className={`block rounded-md px-3 py-2 text-base font-medium ${location.pathname === '/' ? 'bg_yellow text-white' : 'text-gray-300 hover:bg-gray-700 hover:nav-text'}`} aria-current={location.pathname === '/' ? 'page' : undefined}>Home</a>
             <a href="/about-us" className={`block rounded-md px-3 py-2 text-base font-medium ${location.pathname === '/about-us' ? 'bg_yellow text-white' : 'text-gray-300 hover:bg-gray-700 hover:nav-text'}`}>About Us</a>
