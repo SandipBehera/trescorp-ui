@@ -9,35 +9,35 @@ const Products = () => {
             type:'',
             category:'',
             title:'Crude Oil',
-            img:'img/icon/icon-product-5.png',
+            img:'img/Product_Page/Crude.jpg',
             url:'products/Crude_Oil'
         },
         {
             type:'',
             category:'',
             title:'Condensate',
-            img:'img/icon/icon-product-4.png',
+            img:'img/Product_Page/Condensate.jpg',
             url:'products/Condensate'
         },
         {
           type:'mining',
           category:'energy',
           title:'LPG',
-          img:'img/icon/icon-product-10.png',
+          img:'img/Product_Page/LPG.jpg',
           url:'products/LPG'
       },
         {
             type:'mining',
             category:'energy',
             title:'LNG',
-            img:'img/icon/icon-product-13-LNG.png',
+            img:'img/Product_Page/CNG.jpg',
             url:'products/LNG'
         },
         {
             type:'supply chain',
             category:'Transport',
             title:'Mogas',
-            img:'img/icon/icon-product-7.png',
+            img:'img/Product_Page/Mogas.jpg',
             url:'products/Mogas'
         },
         
@@ -45,7 +45,7 @@ const Products = () => {
             type:'CRUDE OIL',
             category:'energy',
             title:'Gas Oil',
-            img:'img/icon/icon-product-11.png',
+            img:'img/Product_Page/GASOIL.jpg',
             url:'products/Gas_Oil'
         },
 
@@ -53,21 +53,21 @@ const Products = () => {
           type:'CRUDE OIL',
           category:'energy',
           title:'Naphtha',
-          img:'img/icon/icon-product-2.png',
+          img:'img/Product_Page/Naptha.jpg',
           url:'products/Naphtha'
       },
       {
         type:'CRUDE OIL',
         category:'energy',
         title:'Fuel Oil',
-        img:'img/icon/icon-product-9.png',
+        img:'img/Product_Page/Fuel.jpg',
         url:'products/Fuel_oil'
     },
     {
       type:'CRUDE OIL',
       category:'energy',
       title:'Petrochemicals',
-      img:'img/icon/icon-product-9.png',
+      img:'img/Product_Page/Petrochemilcals.jpg',
       url:''
   },
     ]
