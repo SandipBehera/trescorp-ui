@@ -63,10 +63,10 @@ const Contact = () => {
              
               <div className="p-4 md:w-full">
               <div className="container mx-auto p-4">
-            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4`} style={{alignItems:'center'}}>
+            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4`} style={{alignItems:'center'}}>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "300px" }}
+                  style={{ height: "350px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "300px" }}
+                  style={{ height: "350px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -107,9 +107,12 @@ const Contact = () => {
                     Trescorp Alliance Pte Ltd
                   </h1>
                   <p className="text-xs leading-relaxed">
-                    AQAR Building(Office 1991),
-                    Al Khuwair, 
-                    Muscat,Oman.
+                  Office 1991 Building
+Office No. 321, 3rd Floor
+Way No 4560
+South Al Khuwair
+Muscat, Sultanate of Oman
+
                   </p>
                   <p className="text-xs leading-relaxed mt-4">
                     <i className="fas fa-envelope"></i> Email: <a href ="mailto:info@trescorp.biz" style={{color:'blue', textDecoration:'underline'}}>info@trescorp.biz</a>
@@ -118,13 +121,46 @@ const Contact = () => {
                     <i className="fas fa-phone"></i> Phone: <a href ="tel:+96824699904" style={{color:'blue', textDecoration:'underline'}}>+968 24699904</a>
                   </p>
                   <p className="text-xs leading-relaxed mt-4">
-                    <i className="fas fa-clock"></i> Working Hours: Mon-Fri 9:00
+                    <i className="fas fa-clock"></i> Working Hours: Sun-Thu 9:00
                     AM - 6:00 PM
                   </p>
                 </div>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "300px" }}
+                  style={{ height: "350px" }}
+                >
+                  <h2
+                    className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
+                    style={{ textAlign: "center" }}
+                  >
+                    Oman Office
+                  </h2>
+                    
+                  <h1 className="text-xl font-extrabold text-gray-900 mb-4">
+                  Trescorp Alliance Pte Ltd ( LNG Office)
+                  </h1>
+                  <p className="text-xs leading-relaxed">
+                  Excellence Office Building 
+Complex No. 225 Building No. 1/564
+Way No. 5508 , 113
+Bousher Muscat, Sultanate of Oman
+
+
+                  </p>
+                  <p className="text-xs leading-relaxed mt-4">
+                    <i className="fas fa-envelope"></i> Email: <a href ="mailto:info@trescorp.biz" style={{color:'blue', textDecoration:'underline'}}>info@trescorp.biz</a>
+                  </p>
+                  <p className="text-xs leading-relaxed mt-4">
+                    <i className="fas fa-phone"></i> Phone: <a href ="tel:+96824699904" style={{color:'blue', textDecoration:'underline'}}>+968 24699904</a>
+                  </p>
+                  <p className="text-xs leading-relaxed mt-4">
+                    <i className="fas fa-clock"></i> Working Hours: Sun-Thu 9:00
+                    AM - 6:00 PM
+                  </p>
+                </div>
+                <div
+                  className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
+                  style={{ height: "350px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -134,7 +170,7 @@ const Contact = () => {
                   </h2>
                     
                   <h1 className="text-xl font-extrabold text-gray-900 mb-4">
-                    Trescorp Alliance Pte Ltd
+                  Trescorp Alliance DMCC
                   </h1>
                   <p className="text-xs leading-relaxed">
                    OneJLT Jumeirah Lake Towers, Dubai, UAE

@@ -13,7 +13,7 @@ const About = () => {
     // },
     {
       title: "Why Choose Us",
-      content: "TRESCORP’s strength is in the sourcing and procuring of crude oil and petroleum with complete supply chain activities; including sourcing, transporting, storage and processing arrangements",
+      content: "TRESCORP is in the sourcing and procuring of crude oil and petroleum with complete supply chain activities; including sourcing, transporting, storage and processing arrangements.",
     },
     {
       title: "Our Vision",
@@ -63,8 +63,8 @@ const About = () => {
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
-            <div className="flex flex-wrap -m-4 mt-10">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-5">
+            <div className="flex flex-wrap -m-4 mt-5">
               <div className="p-4 md:w-2/5">
                 <img
                   className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
@@ -77,22 +77,16 @@ const About = () => {
                   {/* <p className="text-base" style={{ color: "#e5a300" }}>
                     OUR STORY
                   </p> */}
-                  <h1 className="text-3xl font-extrabold text-gray-900 mb-4">
-                    Trescorp Alliance Pte Ltd
-                  </h1>
                   <p className="text-lg leading-relaxed">
-                    ” Trescorp Alliance Pte Ltd (Trescorp) is a trading company
-                    which focuses on crude oil and petroleum products from its
-                    headquarters in Singapore. We have established sales
-                    channels leveraging on our extensive network of suppliers
-                    and customers. Complete supply chain activities, including
-                    sourcing, transporting, storage and processing arrangements.
-                    “
+                    <b>Trescorp Alliance Pte Ltd (Trescorp)</b> is a trading
+                    company which focuses on crude oil and petroleum products
+                    from its headquarters in Singapore. 
+                    arrangements.
                   </p>
-                  <p className="text-lg leading-relaxed mt-4">
-                    Contacting Industris — addresses and information on how best
-                    to contact us.
-                  </p>
+                  <br/>
+                  <p className="text-lg leading-relaxed">
+                  We specialize in sourcing and trading of crude oil, LNG and refined petroleum products on a global scale. We have established reliable supply direct from source. We channel sales through our extensive networks internationally. We are a complete end to end supply chain provider.
+                   </p> 
                   {/* <button
                     className="btn btn-oval inline-flex items-center mt-4 font-bold"
                     onClick={() => window.location.replace("/contact-us")}
@@ -103,45 +97,99 @@ const About = () => {
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-5">
             <CardGrid cards={cards} />
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-5">
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 md:w-3/5">
+              <div className="p-4 md:w-full">
                 <div>
                   <h1
                     className="btm text-xs lg:text-8xl mb-2"
                     style={{ textTransform: "capitalize" }}
                   >
-                    Our values
+                    Our Strength
                   </h1>
-
-                  <p className="mb-4">
-                    Trescorp is constructing a new crude and refined oil
-                    terminal at Sohar Port (Oman). An independent and privately
-                    run oil terminal, which will serve as a propeller to boost
-                    Trescorp’s trading activities within the GCC region, East
-                    Africa and Asia. The terminal will provide complete
-                    terminaling services including storage, blending and
-                    bunkering. This world class terminal’s capacity will be
-                    approximately 1,800,000 m3 and will also be supported by
-                    quick ship-turnaround marine berths, with capacity up to
-                    VLCC (320,000 DWT).
-                  </p>
                 </div>
               </div>
-
-              <div className="p-4 md:w-2/5">
-                <img
-                  className="object-cover object-center rounded-md w-full hover:transform hover:-translate-y-2 hover:translate-x-2 transition duration-300"
-                  alt="hero"
-                  src="../img/served-1.jpg"
-                />
+              <div className="p-4 md:w-1/2">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-4 my-0">
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="pentagon">
+                      <span class="elementor-icon elementor-animation" >
+                      <i className="fa-solid fa-handshake" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      <p className="text-black font-bold">
+                       We have been appointed by the Ministry of Energe and Minerals, The Sultanate of Oman to act as their representative for the ASIA region to market,sell and distribute crude oil.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="pentagon">
+                      <span class="elementor-icon elementor-animation">
+                      <i class="fa-solid fa-bolt" style={{fontSize:'xx-large', marginTop:'0.5rem'}}></i>
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      
+                      <p className="text-black font-bold">
+                       We process and market our own petroleum products, including gasoline, gasoil (diesel), fuel oil and LPG.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="pentagon">
+                      <span class="elementor-icon elementor-animation">
+                      <i class="fa-solid fa-oil-well" style={{fontSize:'x-large', marginTop:'0.5rem'}}></i>
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      <p className="text-black font-bold">
+                        We trade Fuel Oil, Crude oil, LNG, LPG and Gas oil. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="pentagon">
+                      <span class="elementor-icon elementor-animation">
+                      <i class="fa-solid fa-industry" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      
+                      <p className="text-black font-bold">
+                       Constructing and Managing crude and fuel oil storage facilities in Oman.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 mb-2">
+                    <div className="pentagon">
+                      <span class="elementor-icon elementor-animation">
+                      <i class="fa-solid fa-bullseye" style={{fontSize:'x-large', marginTop:'0.8rem'}}></i>
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      
+                      <p className="text-black font-bold">
+                      Since 2017 we havebeen a Term allocation holder of Oman Exports Blend souced directly from the Ministry of Energy and Minerals, The Sultanate of .
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/2">
+                <p className="font-bold mb-4 lg:my-36">
+                  Trescorp's strength is in the sourcing and procuting of crude
+                  oil. LNG and petroleum products namely gasoline,
+                  gasoil(disel), fuel oil and LPG and distrubuting them into the
+                  Asia region at competitive terms.
+                </p>
               </div>
             </div>
           </section>
-          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-20">
+          <section className="container  text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-5">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-2/5">
                 <img

@@ -6,11 +6,6 @@
      "builder_logo":"/img/client/shell-logo.jpg"
     },
     {
-     "id":"3",
-     "builder_name":"gps",
-     "builder_logo":"/img/client/gps-logo.jpg"
-    },
-    {
      "id":"4",
      "builder_name":"bp",
      "builder_logo":"/img/client/bp-logo.jpg"
@@ -99,5 +94,25 @@
         "id":"16",
         "builder_name":"noblegroup",
         "builder_logo":"/img/client/noblegroup.jpg"
+     },
+     {
+      "id":"17",
+      "builder_name":"Beijing Gas",
+      "builder_logo":"/img/client/Beijing-Gas.jpg"
+     },
+     {
+      "id":"18",
+      "builder_name":"Hydrogen Finder",
+      "builder_logo":"/img/client/hyfindr-logo.8b76780e.svg"
+     },
+     {
+      "id":"19",
+      "builder_name":"Libya National Oil Corporation",
+      "builder_logo":"/img/client/Libya_National_Oil_Corporation.png"
+     },
+     {
+      "id":"20",
+      "builder_name":"Sonatrach",
+      "builder_logo":"/img/client/sonatrach.png"
      }
  ]

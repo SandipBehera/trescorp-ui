@@ -24,8 +24,9 @@ const Clients = () => {
     const transformedData = clientList.map(item => ({
         title: '',
         content: (
-          <div className="flex justify-center">
-            <img src={item.builder_logo} alt={item.builder_name} className="h-auto w-auto object-contain" />
+          <div className="justify-center" style={{display:'grid', margin:'3rem'}}>
+            <img src={item.builder_logo} alt={item.builder_name} className="h-auto w-auto object-contain" style={{ backgroundColor: item.id === '19' ? 'black' : undefined }}/><br />
+            <p style={{fontWeight:'700'}}>{item.builder_name}</p>
           </div>
         ),
       }));

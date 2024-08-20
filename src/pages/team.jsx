@@ -6,9 +6,9 @@ const teamMembers = [
   {
     name: "Hamood Salim Al Hashmi",
     position: "Chairman",
-    description: `Hamood is a results-driven and passionate entrepreneur with proven abilities to develop business ventures and converting opportunities into successes. He holds interest in several businesses in the areas of oil and gas, commodity trading, mining, and property development.
-    He has strong interpersonal skills and a natural affinity for cultivating relationships and plays a pivotal role in advising the Ministry of Oil and Gas, Sultanate of Oman on various international oil and gas ventures.
-    He holds a Bachelor Degree in Business Management.`,
+    description: `<p>Hamood is a results-driven and passionate entrepreneur with proven abilities to develop business ventures and converting opportunities into successes.</p><p> He holds interest in several businesses in the areas of oil and gas, commodity trading, mining, and property development.</p>
+    <p>He has strong interpersonal skills and a natural affinity for cultivating relationships and plays a pivotal role in advising the Ministry of Oil and Gas, Sultanate of Oman on various international oil and gas ventures.
+    He holds a Bachelor Degree in Business Management.</p>`,
     social: {
       facebook: 'https://facebook.com/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -19,9 +19,10 @@ const teamMembers = [
   {
     name: "David Holtom",
     position: "Vice Chairman",
-    description: `A highly successful leader and entrepreneur, with extensive global experience in international relations and corporate business. Possessing excellent communication skills and able to establish sustainable and profitable relationships with clients, suppliers, and stakeholders across the world.
-    He holds interest in various companies specializing in oil and gas, aviation, and commodity trading.
-    David was awarded the Member of the Most Excellent Order of the British Empire (MBE).`,
+    description: `<p>A highly successful leader and entrepreneur, with extensive global experience in international relations and corporate business.</p>
+    <p>Possessing excellent communication skills and able to establish sustainable and profitable relationships with clients, suppliers, and stakeholders across the world.</p>
+    <p>He holds interest in various companies specializing in oil and gas, aviation, and commodity trading.</p>
+    <p>David was awarded the Member of the Most Excellent Order of the British Empire (MBE).</p>`,
     social: {
       facebook: 'https://facebook.com/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -31,10 +32,10 @@ const teamMembers = [
   },
   {
     name: "Ali Izhar Ahmad",
-    position: "Group C.E.O",
-    description: `Ali Izhar is a seasoned and highly motivated individual with extensive business exposure in the oil and gas industry.
-    He started his career as a quantity and quality surveyor in 1988. Equipped with more than 18 years experience in the inspection business, he is an expert in the area of petroleum product specifications and requirements and was instrumental in setting up and managing a number of oil and gas trading companies.
-    Having a complete understanding of the business, he is now entrusted to manage the day-to-day operations of the business.`,
+    position: "Director /Chief Executive Officer /Head of Trading",
+    description: `<p>Ali Izhar is a seasoned and highly motivated individual with extensive business exposure in the oil and gas industry.</p><br>
+    <p>He started his career as a quantity and quality surveyor in 1988. Equipped with more than 18 years of experience in the inspection business, he is an expert in the area of petroleum product specifications and requirements and was instrumental in setting up and managing a number of oil and gas trading companies.</p><br/>
+    <p>Having a complete understanding of the business, he is now entrusted to manage the day-to-day operations of the business.</p>`,
     social: {
       facebook: 'https://facebook.com/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -45,8 +46,9 @@ const teamMembers = [
   {
     name: "Wong Shin Ling",
     position: "Finance Manager",
-    description: `Wong Shin Ling is a highly motivated and driven finance manager with twenty-five years’ commodity finance experience in top-level business banking environments. Being an experienced professional, she is equipped with the business awareness and strategic planning as well as providing financial solutions which help organizations grow financially. Having high numeracy and sound technical skills she makes sure of the smooth flow of products and services delivery and keeping abreast of changes in financial regulations and legislation.
-    Wong Shin Ling holds a degree in Bachelor of Business in Business Administration from the National University of Singapore. Her strong management skill, attentive to details and an investigative nature is bringing productive changes to the business.`,
+    description: `<p>Wong Shin Ling is a highly motivated and driven finance manager with twenty-five years of commodity finance experience in top-level business banking environments.Being an experienced professional, she is equipped with the business awareness and strategic planning as well as providing financial solutions which help organizations grow financially.</p><br/>
+    <p>Having high numeracy and sound technical skills, she ensures the smooth flow of products and services delivery and keeps abreast of changes in financial regulations and legislation.</p><br/>
+    <p>Wong Shin Ling holds a degree in Bachelor of Business in Business Administration from the National University of Singapore. Her strong management skills, attention to detail, and investigative nature are bringing productive changes to the business.</p>`,
     social: {
       facebook: 'https://facebook.com/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -54,19 +56,13 @@ const teamMembers = [
       instagram: 'https://instagram.com/johndoe',
     },
   },
-  // {
-  //   name: "Royston Wu",
-  //   position: "Chartering / Broking Manager",
-  //   description: `Dynamic, self-driven and result-focused with more than 25 years of marine and oil industry, Royston is experienced in terminalling operations / optimization and chartering in vessels for shipboard fuel oil blending. He improves logical planning, reporting and chartering operations.
-  //   In addition, he is an outstanding international tanker broker covering East of Suez to United States, securing and developing long-term relationships with oil majors and international trading houses.
-  //   He holds a Second Mates Certificate of Competency.`,
-  // },
   {
     name: "Saif Al Amri",
     position: "LNG Director",
-    description: `Saif Al Amri is results-oriented and self-motivated with more than 22 years of extensive experience in the LNG industry with Oman LNG.
-    Saif began his career as an engineer in 1997 immediately after completion of his Bachelor’s degree in Mechanical Engineering from the University of Leeds in the UK. He specializes in the commercial aspects of the LNG market. Saif has a proven track record of Strategies Conception and Implementation, Long Term Contracts Negotiation, Business Development, Origination, and Optimisation.
-    Saif’s role as TRESCORP’s LNG Director is to establish and develop the LNG business so that Trescorp achieves its vision of becoming the LNG preferred partner of choice.`,
+    description: `<p>Saif Al Amri is results-oriented and self-motivated with more than 22 years of extensive experience in the LNG industry with Oman LNG.</p>
+    <p>Saif began his career as an engineer in 1997 immediately after completing his Bachelor’s degree in Mechanical Engineering from the University of Leeds in the UK. He specializes in the commercial aspects of the LNG market.</p>
+    <p>Saif has a proven track record of Strategies Conception and Implementation, Long Term Contracts Negotiation, Business Development, Origination, and Optimization.</p>
+    <p>Saif’s role as TRESCORP’s LNG Director is to establish and develop the LNG business so that Trescorp achieves its vision of becoming the LNG preferred partner of choice.</p>`,
     social: {
       facebook: 'https://facebook.com/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -75,6 +71,7 @@ const teamMembers = [
     },
   },
 ];
+
 const SocialLinks = ({ social }) => (
   <div className="flex space-x-4 mt-4">
     {social.facebook && (
@@ -144,9 +141,10 @@ const Team = () => {
                   <h3 className="text-md font-medium text-gray-500 mb-3">
                     {member.position}
                   </h3>
-                  <p className="leading-relaxed text-base">
+                  {/* <p className="leading-relaxed text-base">
                     {member.description}
-                  </p>
+                  </p> */}
+                  <div dangerouslySetInnerHTML={{ __html: member.description }} />
                   <SocialLinks social={member.social} />
                 </div>
               </div>

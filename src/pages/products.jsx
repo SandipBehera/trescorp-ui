@@ -112,13 +112,13 @@ const Products = () => {
                     <p className="text-lg leading-relaxed">
                     Trescorp Alliance Pte Ltd (Trescorp) is a trading company which focuses on crude oil and petroleum products. We specialise in sourcing and trading of crude oil and refined petroleum products on a global scale and have established strong supply direct from the source. Sales are channeled through our extensive networks internationally. Trescorp is a complete, end to end, supply chain provider.
                     </p>
-                    <p className="text-lg leading-relaxed mt-4">
+                    {/* <p className="text-lg leading-relaxed mt-4">
                     Contacting Industris —
                     addresses and information on how best to contact us.
-                    </p>
-                    <button className="btn btn-oval inline-flex items-center mt-4 font-bold" onClick={() => window.location.replace("/contact-us")}>
+                    </p> */}
+                    {/* <button className="btn btn-oval inline-flex items-center mt-4 font-bold" onClick={() => window.location.replace("/contact-us")}>
                         Contat Us
-                        </button>
+                        </button> */}
               </div>
               </div>
 

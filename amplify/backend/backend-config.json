@@ -16,5 +16,31 @@
       "providerPlugin": "awscloudformation",
       "service": "AppSync"
     }
+  },
+  "function": {
+    "sendEmailOnSubmit": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_sendEmailOnSubmit_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "sendEmailOnSubmit"
+        }
+      ]
+    },
+    "AMPLIFY_function_sendEmailOnSubmit_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "sendEmailOnSubmit"
+        }
+      ]
+    }
   }
 }

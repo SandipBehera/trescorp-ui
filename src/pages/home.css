@@ -96,6 +96,17 @@
         border-color: #FFFFFF;
         padding: 7px 7px 7px 7px;
   }
+  .nav_button_custom1{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #81afb554;
+    color: #000000;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 7px 7px 7px 7px;
+}
   @media screen and (max-width:768px) {
     .btm {
       color: #101010;
@@ -124,15 +135,27 @@
       width: 40px;
       height: 40px;
       font-size: 30px;
-      background-color: #9B9B9B54;
+      background-color: #81afb554;
       color: #000000;
       border-radius: 100px;
       border-style: solid;
       border-width: 1px 1px 1px 1px;
-      border-color: #FFFFFF;
       padding: 0;
       margin-right: 0;
 }
+.nav_button_custom1{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #9B9B9B54;
+  color: #000000;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  padding: 2px;
+  margin-right: 0;
+}
+
   }
 
   /* Main Footer ----- */
@@ -527,6 +550,7 @@
   font-size: x-large;
   font-weight: 700;
 }
+
 /* Medium screens (768px and up) */
 @media screen and (min-width: 768px) {
   .paragraph {
@@ -535,6 +559,7 @@
   .place_margin{
     margin-top: 5rem;
   }
+  
 }
 
 /* Large screens (1024px and up) */
@@ -633,3 +658,107 @@
 .opactiy-70{
   opacity: 0.7;
 }
+.home_headder{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.home_parag{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .home_headder{
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .home_parag{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home_headder{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .home_parag{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    width: 28rem;
+  }
+}
+.hexagon {
+  width: 100px; /* Adjust the size as needed */
+  height: 57.74px; /* Adjust the height as needed, calculated as width * sqrt(3)/2 */
+  background-color: #ffd100; /* Inside color of the hexagon */
+  position: relative;
+  margin: 28.87px 0; /* Adjust to vertically center */
+  border-left: solid 5px #ffd100; /* Border on the left side */
+  border-right: solid 5px #ffd100; /* Border on the right side */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.hexagon:before {
+  top: -28.87px;
+  transform: rotate(60deg);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon:after {
+  top: 28.87px;
+  transform: rotate(-60deg);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.pentagon {
+  width: 38px; /* Base width of the pentagon */
+  height: 41.74px; /* Base height of the pentagon */
+  background-color: #ffd100; /* Inside color of the pentagon */
+  position: relative;
+  margin: 0 auto; /* Center the pentagon horizontally */
+  clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+  /* Creating the pentagon shape using clip-path */
+  border-left: solid 5px #ffd100; /* Border on the left side */
+  border-right: solid 5px #ffd100; /* Border on the right side */
+}
+
+.pentagon:before,
+.pentagon:after {
+  content: "";
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.pentagon:before {
+  top: -50px; /* Adjust the position as needed */
+  transform: rotate(0deg);
+  clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+}
+
+.pentagon:after {
+  top: 50px; /* Adjust the position as needed */
+  transform: rotate(0deg);
+  clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+}
+

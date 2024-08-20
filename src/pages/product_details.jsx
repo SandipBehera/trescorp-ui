@@ -46,7 +46,7 @@ const ProductDetails = () => {
                 display: "inline-block",
               }}
             ></span>
-            <span className="ekit-heading__shadow-text2"> {id}</span>
+            <span className="ekit-heading__shadow-text2"> {productData[0]?.name}</span>
           </div>
         </div>
       </section>
