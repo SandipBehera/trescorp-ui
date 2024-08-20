@@ -64,6 +64,7 @@ const HomePage = () => {
       <main>
         <div style={{ overflow: "hidden" }}>
           {/* <!-- Your content --> */}
+          <FaderComponent>
           <section
             className="text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-0"
             style={{
@@ -72,8 +73,8 @@ const HomePage = () => {
             }}
           >
               
-               <SlideInRightComponent>
-               <FaderComponent>
+              
+              
             <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
             
               <div className="p-4 mx-auto md:w-1/2">
@@ -181,10 +182,11 @@ background: 'linear-gradient(60deg, rgba(207,206,224,1) 0%, rgba(17,223,241,1) 1
                 </div>
               </div> 
             </div>
-            </FaderComponent>
-            </SlideInRightComponent>
+           
+            
             
           </section>
+          </FaderComponent>
           <FaderComponent>
             <section
               id="animated-section"
