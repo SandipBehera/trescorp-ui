@@ -66,7 +66,7 @@ const Contact = () => {
             <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4`} style={{alignItems:'center'}}>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "350px" }}
+                   style={{ height: "400px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "350px" }}
+                   style={{ height: "400px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -127,7 +127,7 @@ Muscat, Sultanate of Oman
                 </div>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "350px" }}
+                   style={{ height: "400px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
@@ -160,7 +160,7 @@ Bousher Muscat, Sultanate of Oman
                 </div>
                 <div
                   className="card bg-white-800  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700"
-                  style={{ height: "350px" }}
+                   style={{ height: "400px" }}
                 >
                   <h2
                     className="text-2xl font-bold mb-4 transition-colors duration-300 hover:text-yellow-500"
