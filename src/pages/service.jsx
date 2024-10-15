@@ -82,7 +82,7 @@ const Service = () => {
                     className="btm text-xs lg:text-8xl mb-2"
                     style={{ textTransform: "capitalize" }}
                   >
-                    Logistic
+                    Logistics
                   </h1>
 
                   <p className="mb-4">
@@ -112,7 +112,7 @@ const Service = () => {
                   </h1>
 
                   <p className="mb-4">
-                    <b>Trescorp</b> source crude oil and LNG directly from oil producers primarily within the Middle Ease which give us our competitive advantage.
+                    <b>Trescorp</b> source crude oil and LNG directly from oil producers primarily within the Middle East which give us our competitive advantage.
                   </p>
                   <p className="mb-4">
                     Additionally, we have a crude processing arrangment with a private refinery in Thailand where we ship crude oil to be refined into petroleum products.This arrangment provides <b>TRESCORP</b> with another source of diverse product line.

@@ -65,129 +65,6 @@ const HomePage = () => {
         <div style={{ overflow: "hidden" }}>
           {/* <!-- Your content --> */}
           <FaderComponent>
-          <section
-            className="text-gray-600 body-font mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-40 md:my-0"
-            style={{
-              backgroundColor: "black",
-              borderBottom: "1px solid #ffd100",
-            }}
-          >
-              
-              
-              
-            <div className="flex flex-wrap -m-4 mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
-            
-              <div className="p-4 mx-auto md:w-1/2">
-                <div className="mb-4 mt-16">
-                  <h1 className="home_headder  text-white mb-4">
-                    You do the business, we'll handle the brand.
-                  </h1>
-                  <span
-                    className="home_parag py-4 "
-                    style={{ color: "#a6afbb",fontWeight:'600' }}
-                  >
-                    Turn idea into reality with executed solutions, team
-                    training and seamless alignment with your goals,
-                    transferring digital expertise
-                  </span>
-                </div>
-                <button style={{background: 'rgb(207,206,224)',
-background: 'linear-gradient(60deg, rgba(207,206,224,1) 0%, rgba(17,223,241,1) 100%)'}}  className="hover:bg-yellow text-white font-bold py-2 px-4 rounded mt-4">
-                  Get Started
-                </button>
-              </div>
-              <div className="p-4 md:w-1/2">
-                <div className="grid grid-cols-1 md:grid-cols-1 gap-4 my-14">
-                  <div className="flex items-center gap-4 mb-10">
-                    <div className="nav_button_custom1">
-                      <span class="elementor-icon elementor-animation">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          style={{
-                            height: "30px",
-                            width: "30px",
-                            color: "#11dff1",
-                            margin: "7px",
-                          }}
-                        >
-                          <path d="M12 .587l3.668 7.429 8.2 1.191-5.934 5.784 1.4 8.169L12 18.896l-7.334 3.864 1.4-8.169L.132 9.207l8.2-1.191L12 .587z" />
-                        </svg>
-                      </span>
-                    </div>
-                    <div className="mt-2">
-                      <h2 className="text-white font-bold">Consultation</h2>
-                      <p style={{ color: "#a6afbb",fontWeight:'600' }}>
-                        Our expert advisors refine your technology strategy for
-                        boosted sales and sustainable growth.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 mb-10">
-                    <div className="nav_button_custom1">
-                      <span class="elementor-icon elementor-animation">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          style={{
-                            height: "40px",
-                            width: "40px",
-                            color: "#11dff1",
-                            margin: "2px",
-                          }}
-                        >
-                          <path d="M12 2C12 2 4 4 4 8v5c0 6 4 9 8 9s8-3 8-9V8c0-4-8-6-8-6zm0 16c-2.667 0-4-2-4-4V9.5l4-1.5 4 1.5V14c0 2-1.333 4-4 4z" />
-                        </svg>
-                      </span>
-                    </div>
-                    <div className="mt-2">
-                      <h2 className="text-white font-bold">Engineering</h2>
-                      <p style={{ color: "#a6afbb",fontWeight:'600' }}>
-                        We collabrate with premier tech providers and our R&D
-                        enginners, empowering your business with innovation and
-                        expertise.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 mb-10">
-                    <div className="nav_button_custom1">
-                      <span class="elementor-icon elementor-animation">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          style={{
-                            height: "40px",
-                            width: "40px",
-                            color: "#11dff1",
-                            margin: "2px",
-                          }}
-                        >
-                          <path d="M22.5 2.5a1 1 0 0 0-1.08-.15l-19 8a1 1 0 0 0 .06 1.84l6.56 2.62 2.62 6.56a1 1 0 0 0 1.84.06l8-19a1 1 0 0 0-.15-1.08zm-8.22 16.72l-2.17-5.43 5.43-5.43-7.26 8.26z" />
-                        </svg>
-                      </span>
-                    </div>
-                    <div className="mt-2">
-                      <h2 className="text-white font-bold">
-                        Solution Architecture
-                      </h2>
-                      <p style={{ color: "#a6afbb",fontWeight:'600' }}>
-                        We craft tailored tech solutions, seamlessly integrating
-                        stystem for peak performance and exceptional outcomes.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div> 
-            </div>
-           
-            
-            
-          </section>
-          </FaderComponent>
-          <FaderComponent>
             <section
               id="animated-section"
               className="max-w-fit text-gray-600 body-font mx-auto  px-4 py-6 sm:px-6 lg:px-40 max-w-fit md: max-w-fit my-0"
@@ -301,8 +178,7 @@ background: 'linear-gradient(60deg, rgba(207,206,224,1) 0%, rgba(17,223,241,1) 1
                       strength lies in its ability to source high-quality crude
                       oil and petroleum products directly from producers,
                       refineries, and national oil companies across various
-                      regions, including the Middle East, Africa, Asia, and the
-                      Americas.
+                      regions.
                     </p>
                   </div>
                 </SlideInRightComponent>
@@ -336,10 +212,6 @@ background: 'linear-gradient(60deg, rgba(207,206,224,1) 0%, rgba(17,223,241,1) 1
                   <p className="paragraph">
                     TRESCORP’s clients consist of internationally renowned
                     traders and oil majors.
-                  </p>
-                  <p className="paragraph">
-                    Among them are Chevron, Glencore and Hin Leong which have
-                    successfully lifted our products from Thailand.
                   </p>
                 </div>
 

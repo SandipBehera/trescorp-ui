@@ -80,8 +80,7 @@ const About = () => {
                   <p className="text-lg leading-relaxed">
                     <b>Trescorp Alliance Pte Ltd (Trescorp)</b> is a trading
                     company which focuses on crude oil and petroleum products
-                    from its headquarters in Singapore. 
-                    arrangements.
+                    from its headquarters in Singapore.
                   </p>
                   <br/>
                   <p className="text-lg leading-relaxed">
@@ -106,9 +105,9 @@ const About = () => {
                 <div>
                   <h1
                     className="btm text-xs lg:text-8xl mb-2"
-                    style={{ textTransform: "capitalize" }}
+                    style={{ textTransform: "capitalize",fontWeight:'500' }}
                   >
-                    Our Strength
+                    Our Strenghts
                   </h1>
                 </div>
               </div>
@@ -122,7 +121,7 @@ const About = () => {
                     </div>
                     <div className="mt-2">
                       <p className="text-black font-bold">
-                       We have been appointed by the Ministry of Energe and Minerals, The Sultanate of Oman to act as their representative for the ASIA region to market,sell and distribute crude oil.
+                       We have been appointed by the Ministry of Energy and Minerals, The Sultanate of Oman to act as their representative to market,sell and distribute crude oil.
                       </p>
                     </div>
                   </div>
@@ -173,7 +172,7 @@ const About = () => {
                     <div className="mt-2">
                       
                       <p className="text-black font-bold">
-                      Since 2017 we havebeen a Term allocation holder of Oman Exports Blend souced directly from the Ministry of Energy and Minerals, The Sultanate of .
+                      Since 2017 we have been a Term allocation holder of Oman Exports Blend souced directly from the Ministry of Energy and Minerals, The Sultanate of Oman.
                       </p>
                     </div>
                   </div>
@@ -182,7 +181,7 @@ const About = () => {
               <div className="p-4 md:w-1/2">
                 <p className="font-bold mb-4 lg:my-36">
                   Trescorp's strength is in the sourcing and procuting of crude
-                  oil. LNG and petroleum products namely gasoline,
+                  oil's. LNG and petroleum products namely gasoline,
                   gasoil(disel), fuel oil and LPG and distrubuting them into the
                   Asia region at competitive terms.
                 </p>
@@ -219,7 +218,7 @@ const About = () => {
                     welcomed, honesty is encouraged, and teamwork and
                     distinction are cornerstones. We are proud of what we do and
                     how we do it—and we enjoy doing it! Our ethical standard is
-                    one of our most vital assets.
+                    one of our most valued assets.
                   </p>
                 </div>
               </div>
